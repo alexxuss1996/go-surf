@@ -14,11 +14,11 @@
 input,
 textarea {
   outline: none;
-  
+
   &:focus:required:invalid {
     border-color: red;
   }
-  
+
   &:required:valid {
     border-color: green;
   }
@@ -28,7 +28,7 @@ body {
   font-size: 16px;
   min-width: 320px;
   position: relative;
-  line-height: 1.65;
+  // line-height: 1.65;
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
   color: $text;
@@ -38,7 +38,10 @@ body {
 
 // Custom Sass / Remove before use
 
-
+h1 {
+  color: #000;
+  background-color: red;
+}
 
 
 .parent {
